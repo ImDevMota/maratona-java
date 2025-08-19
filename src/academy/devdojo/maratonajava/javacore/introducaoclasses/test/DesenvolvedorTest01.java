@@ -2,7 +2,7 @@ package academy.devdojo.maratonajava.javacore.introducaoclasses.test;
 
 import academy.devdojo.maratonajava.javacore.introducaoclasses.dominio.Desenvolvedor;
 
-public class PessoaTest01 {
+public class DesenvolvedorTest01 {
     public static void main(String[] args) {
         Desenvolvedor desenvolvedor = new Desenvolvedor();
         desenvolvedor.nome = "Mota";
