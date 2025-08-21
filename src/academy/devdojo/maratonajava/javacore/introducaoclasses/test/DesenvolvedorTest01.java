@@ -1,6 +1,7 @@
 package academy.devdojo.maratonajava.javacore.introducaoclasses.test;
 
 import academy.devdojo.maratonajava.javacore.introducaoclasses.dominio.Desenvolvedor;
+import academy.devdojo.maratonajava.javacore.introducaometodos.dominio.Impressora;
 
 public class DesenvolvedorTest01 {
     public static void main(String[] args) {
@@ -13,5 +14,10 @@ public class DesenvolvedorTest01 {
         System.out.println(desenvolvedor.idade);
         System.out.println(desenvolvedor.sexo);
         System.out.println(desenvolvedor);
+
+        Desenvolvedor desenvolvedor01 = new Desenvolvedor();
+        Desenvolvedor desenvolvedor02 = new Desenvolvedor();
+        Impressora impressora = new Impressora();
+
     }
 }
