@@ -3,7 +3,7 @@ package academy.devdojo.maratonajava.javacore.modificadorestatico.domain;
 public class Carro {
     private String nome;
     private double velocidadeMaxima;
-    // Faz parte da classe Carro
+    // Faz parte da classe Carro, é definido antes de ser instanciado um objeto.
     public static double velocidadeLimite = 250;
 
     public Carro(String nome, double velocidadeMaxima) {
@@ -17,6 +17,15 @@ public class Carro {
         System.out.println("Velocidade máxima " + this.velocidadeMaxima);
         System.out.println("Velocidade limite " + this.velocidadeLimite);
 
+    }
+
+    // metódo estático
+    public static void setVelocidadeLimite(double velocidadeLimite) {
+        Carro.velocidadeLimite = velocidadeLimite;
+    }
+    // metódo estático
+    public static double getVelocidadeLimite() {
+        return Carro.velocidadeLimite;
     }
 
     public String getNome() {
