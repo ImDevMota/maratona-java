@@ -5,11 +5,21 @@ public class Aluno {
     private int idade;
     private Seminario seminario;
 
+    public Aluno(String nome) {
+        this.nome = nome;
+    }
+
+    public Aluno(String nome, int idade) {
+        this.nome = nome;
+        this.idade = idade;
+    }
+
     public Aluno(String nome, int idade, Seminario seminario) {
         this.nome = nome;
         this.idade = idade;
         this.seminario = seminario;
     }
+
 
     public Seminario getSeminario() {
         return seminario;
