@@ -15,3 +15,4 @@ public class ClientTest {
         System.out.println(TipoPagamento.CREDITO.calcularDesconto(100));
     }
 }
+   
